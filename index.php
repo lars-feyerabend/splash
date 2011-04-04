@@ -42,7 +42,7 @@
 			<li><a href="http://twitter.com/pulsar84" id="tw" title="Follow me on Twitter">Twitter<span></span></a></li>
 			<li class="m"><a href="http://blog.lars-feyerabend.de/" id="tu" title="My tumblelog">Tumblr<span></span></a></li>
 			<li><a href="http://flic.kr/lars-feyerabend" id="fl" title="My photography on Flickr">Flickr<span></span></a></li>
-			<li><a href="http://del.icio.us/lars.feyerabend" id="dl" title="My bookmarks on Delicious">Del.icio.us<span></span></a></li>
+			<li><a href="http://pinboard.in/u:pulsar/" id="dl" title="My bookmarks on Pinboard.in">Pinboard.in<span></span></a></li>
 			<li><a href="http://last.fm/user/pulsar84" id="as" title="My musical taste on last.fm">Last.fm<span></span></a></li>
 		</ul>
 		</div>
