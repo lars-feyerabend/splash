@@ -1,12 +1,16 @@
 BEGIN:VCARD
 VERSION:3.0
 N:Feyerabend;Lars;;;
+ORG:webmotive | professional internet services;
 FN:Lars Feyerabend
 EMAIL;type=INTERNET;type=HOME;type=pref:post@lars-feyerabend.de
-TEL;type=WORK;type=pref:+49 151 22631969
+TEL;type=IPHONE;type=CELL;type=VOICE:+49 151 22631969
 ADR;type=HOME;type=pref:;;Krakaustraße 27a;Aachen;NRW;52064;Deutschland
+ADR;type=WORK;type=pref:;;Burtscheider Straße 1;Aachen;NRW;52064;Deutschland
 URL;type=pref:http\://lars-feyerabend.de/
 BDAY;value=date:1984-11-17
 X-SKYPE-USERNAME;type=WORK;type=pref:lars.feyerabend
-X-ICQ;type=HOME;type=pref:52421675
+X-SOCIALPROFILE;type=twitter:https://twitter.com/pulsar84
+X-SOCIALPROFILE;type=facebook:https://facebook.com/lars.feyerabend
+IMPP;X-SERVICE-TYPE=Facebook:xmpp:lars.feyerabend
 END:VCARD
