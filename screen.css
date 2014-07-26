@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
 @font-face {
   font-family: 'fontello';
   src: url('font/fontello.eot?10112845');
@@ -14,12 +14,12 @@ body, h1, dl, dt, dd, ul, li, p {
   margin: 0; padding: 0;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "PT Sans", sans-serif;
   padding-top: 100px;
+  font-weight: 700;
 }
 h1 {
   letter-spacing: 1px;
-  text-transform: uppercase;
   background-color: #333;
   color: #fff;
   padding: 0 10px 0 100px;
@@ -40,20 +40,6 @@ ul, ul li {
 h1 {
   margin-bottom: 20px;
 }
-dl {
-  clear: both;
-  margin-bottom: 10px;
-  padding-left: 10px;
-}
-dt {
-  font-weight: bold;
-  margin-top: 10px;
-}
-dd {
-  clear: both;
-  padding: 2px 5px 2px 20px;
-}
-
 ul a {
   position: relative;
   white-space: nowrap;
@@ -111,16 +97,16 @@ ul a span {
   background-color: #d36854;
 }
 
-@media (max-width: 767px) {
-  body {
-    padding-top: 20px;
-  }
+@media (max-width: 480px) {
   h1 {
     padding: 0 10px;
     text-align: center;
     margin: 0 auto;
     float: none;
     clear: both;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
   }
 
   ul {
@@ -129,15 +115,20 @@ ul a span {
     width: 100%;
   }
 
-  dl {
-    margin-top: 20px;
+  [data-icon=V] {
+    background-color: #21a700;
   }
-  dt {
-    text-align: center;
-    padding: 0;
+
+  [data-icon=F] {
+    background-color: #3b5998;
   }
-  dd {
-    text-align: center;
-    padding: 5px;
+
+  [data-icon=T] {
+    background-color: #00a0d1;
   }
+
+  [data-icon=A] {
+    background-color: #d36854;
+  }
+
 }
